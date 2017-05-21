@@ -1,0 +1,159 @@
+#logo{
+    float:left;
+    width: 18%;
+    height: 8%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;     
+    position: fixed;
+            }
+nav {
+    float:left;
+    width: 6%;
+    position: fixed;
+    top: 10%;
+    font-family: monospace;
+    font-size: 1.5em;
+    overflow: visible;
+    }
+            
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    padding-top: 30px;
+}
+nav ul li a:link{
+    text-decoration: none;
+    color:lightgray;
+}
+nav ul li a:visited{
+    color:lightgray;
+}
+nav ul li a:hover{
+    transition: all 1s ease-in;
+    color:black;
+    background-color:beige;
+}
+#title {
+    margin-left: 20%;
+    margin-left: 32%;
+    line-height: 110px;
+    font-size:2em;
+    font-family: monospace;
+}
+#content {
+
+    margin-left: 20%;
+    font-family: monospace;
+}
+#pics{
+    margin-left: 20%;
+}
+#pics ul li img{
+    width: 80%;
+}
+#pics ul li{
+    list-style: none;
+}
+#contentIMG img{
+                width: 100%;
+            }
+#content a:link{
+        font-family: monospace;
+        text-decoration: none;
+        font-size: 2em;
+        margin-bottom: 120px;
+        color:lightgray;
+                
+            }
+#content a:visited{
+        color:lightgray;
+            }
+#content a:hover{
+        transition: all 1s ease-in;
+        color:black;
+        background-color:beige;
+         }
+#contentIMG a:link{
+        font-family: monospace;
+        text-decoration: none;
+        font-size: 2em;
+        margin-bottom: 120px;
+        color:lightgray;
+                
+            }
+#contentIMG a:visited{
+        color:lightgray;
+            }
+#contentIMG a:hover{
+        transition: all 1s ease-in;
+        color:black;
+        background-color:beige;
+         }
+.center {
+        text-align: center;
+        }
+
+#copyright{
+    font-family: monospace;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5%; 
+}
+
+#copyright a:link{
+    font-family: monospace;
+    text-align: center; 
+}
+#copyright a:hover{
+    transition: all 1s ease-in;
+    color:black;
+    background-color:beige;
+}
+#copyright a:visited{
+    color:lightgray;
+}
+
+.gallery {
+    position: relative;
+    padding-bottom: 3%;
+    margin: 0;
+    text-align: center;
+    width: 90%;
+}
+.gallery-image{
+    cursor:pointer;
+    position: relative;
+}
+
+.gallery-text{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0; 
+    left: 10%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+    vertical-align:middle;
+    padding-top: 10%;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 4em;
+    width:80%;
+    }
+.gallery-text:hover{
+    opacity: 6;      
+    }
+.gallery-text a{
+    color: white;
+    vertical-align: middle;
+    display: block;
+    height: 100%;
+    width: 100%;
+    }
+            
